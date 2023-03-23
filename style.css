@@ -399,9 +399,7 @@ body {
   align-items: center;
   margin-left: -213px;
 }
-.footer-section-top-left {
-  margin-left: 213px;
-}
+
 .footer-section-top p {
   max-width: 460px;
   font-size: 16px;
@@ -457,10 +455,10 @@ body {
 }
 .footer-list-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
   max-width: 1366px;
-
   margin: 0 auto;
+  gap: 100px;
 }
 .footer-phone-number-container p {
   color: white;
@@ -490,7 +488,10 @@ body {
   color: #ffffff;
 
   opacity: 0.6;
+
+  max-width: 982px;
+
+  margin: 0 auto;
   margin-top: 64px;
-  margin-left: 60px;
 }
 /* end of fifth-section */
