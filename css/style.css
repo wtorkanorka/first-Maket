@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Galien-Bold";
-  src: url("./assets/fonts/Galien-Bold.ttf");
+  src: url("../assets/fonts/Galien-Bold.ttf");
 }
 @font-face {
   font-family: "Gilroy-light";
-  src: url("./assets/fonts/Gilroy-UltraLightItalic.ttf");
+  src: url("../assets/fonts/Gilroy-UltraLightItalic.ttf");
 }
 @font-face {
   font-family: "Gilroy-regular";
-  src: url("./assets/fonts/Gilroy-RegularItalic.ttf");
+  src: url("../assets/fonts/Gilroy-RegularItalic.ttf");
 }
 /* обнуляющие стили */
 .main * {
@@ -229,7 +229,7 @@ body {
       #1f3f68 3.62%,
       rgba(31, 63, 104, 0.37) 97.78%
     ),
-    url("./assets/alberto-castillo-q-mx4mSkK9zeo-unsplash.png");
+    url("../assets/alberto-castillo-q-mx4mSkK9zeo-unsplash.png");
 
   background-position: center;
   width: 100%;
@@ -248,7 +248,7 @@ body {
       rgba(66, 165, 245, 0.4) -1.71%,
       rgba(21, 101, 192, 0.6) 74.54%
     ),
-    url("./assets/Dribble\ iphonex\ mockup.png");
+    url("../assets/Dribble\ iphonex\ mockup.png");
   background-position: center;
   height: 422px;
 }
@@ -261,7 +261,7 @@ body {
       rgba(66, 165, 245, 0.4) 0%,
       rgba(21, 101, 192, 0.6) 97.81%
     ),
-    url("./assets/upload.png");
+    url("../assets/upload.png");
 
   background-position: center;
   height: 422px;
@@ -455,7 +455,7 @@ body {
 }
 .footer-list-container {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   max-width: 1366px;
   margin: 0 auto;
   gap: 100px;
