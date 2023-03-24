@@ -87,6 +87,10 @@ body {
   border-radius: 10px;
   color: white;
   cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.hero-content-button:active {
+  box-shadow: 5px 4px 4px rgb(53 110 173 / 20%);
 }
 .hero-content-button p {
   font-size: 16px;
@@ -398,6 +402,7 @@ body {
   justify-content: center;
   gap: 97px;
   align-items: center;
+  padding-left: 213px;
   margin-left: -213px;
 }
 
